@@ -2,7 +2,7 @@
  
 This repository contains an in-house computational pipeline developed in Python/Matlab for identification of low frequency mutations in TSC2 and TP53 from Massively Parallel Sequencing (MPS) data generated using the Multiplex High-sensitivity PCR Assay (MHPA) strategy (Klonowska et al, Journal of Clinical Investigation, 2022).
  
-The MHPA pipeline has been developed in Dr. David J Kwiatkowski lab (Brigham and Women’s Hospital, Harvard Medical School, Boston) and is derived from the custom code pipeline used previously in the Kwiatkowski lab for the identification of low frequency allele frequency mutations in TSC1/TSC2 from targeted capture MPS data, which was reported in:
+The MHPA pipeline has been developed in Dr. David J Kwiatkowski lab (Brigham and Women’s Hospital, Harvard Medical School, Boston) and is derived from the custom code pipeline used previously in the Kwiatkowski lab for the identification of low frequency allele frequency mutations in TSC1/TSC2 from targeted capture MPS data, reported in:
  
 *	Giannikou K, et al. Low-level mosaicism in tuberous sclerosis complex: prevalence, clinical features, and risk of disease transmission. Genet Med. 2019;21(11):2639-2643.
 * Treichel AM, et al. Phenotypic distinctions between mosaic forms of tuberous sclerosis complex. Genet Med. 2019;21(11):2594-2604.
