@@ -15,9 +15,6 @@ import shutil
 # PIK3CA: 3:178866311-178952497
 # VHL: 3:10183319-10195354
 # FLCN 17:17113000-17143000
-
-###############################
-# cfDNA cases:
 # TXNIP: "1:145438462-145442628"
 # KDM6A: "X:44732423-44971845"
 # MSR1: "8:15965387-16050300"
@@ -47,13 +44,7 @@ import shutil
 # KDM5C: "X:53220503-53254604"
 
 class Application(Frame):
-    # To run this application, the following files are needed:
-    # numSamples.txt
-    # genomewithinst.txt
-    # merger.py
-    # v12-q50.py
-    # Analyzer.py (which is this file itself)
-
+ 
     def __init__(self, master=None):
         Frame.__init__(self, master)
         self.pack()
@@ -205,7 +196,7 @@ class Application(Frame):
 
         self.zeroscreator()
 
-        # Import data from GenomAD Browser
+        # Import data from GnomAD Browser
         source = open('genomeADalts.txt', 'r')
         target = open('reformatgenomeAD.txt', 'w')
 
